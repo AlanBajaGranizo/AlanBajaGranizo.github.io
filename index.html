@@ -3,40 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scratch Game Embedded</title>
+    <title>Embedded Figma and Scratch</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f5f5f5;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
+            margin: 0;
         }
         .container {
-            text-align: center;
             background-color: #ffffff;
             padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-        }
-        h1 {
-            color: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
         iframe {
-            border: none;
-            width: 485px;
-            height: 402px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Scratch Game</h1>
-        <p>Disfruta del juego embebido desde Scratch:</p>
-        <iframe src="https://scratch.mit.edu/projects/1077590278/embed" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <h1>Figma Design Embed</h1>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/KeoAoQImI13PUAjb9jcTNJ/Presentacion-Final-(Copy)?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+    </div>
+    <div class="container">
+        <h1>Scratch Game Embed</h1>
+        <iframe src="https://scratch.mit.edu/projects/1077590278/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
     </div>
 </body>
 </html>
