@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Scratch Game</title>
+    <title>Scratch Game Embedded</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        iframe {
+            border: none;
+            width: 485px;
+            height: 402px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Scratch Game Embed Example</h1>
-    <p>Below is an embedded Scratch game:</p>
-    <iframe src="https://scratch.mit.edu/projects/1077590278/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <div class="container">
+        <h1>Scratch Game</h1>
+        <p>Disfruta del juego embebido desde Scratch:</p>
+        <iframe src="https://scratch.mit.edu/projects/1077590278/embed" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
